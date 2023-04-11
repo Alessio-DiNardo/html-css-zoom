@@ -5,13 +5,21 @@
 }
 
 header{
-    background-color: rgb(150, 145, 145);
+    background-color: black;
     height: 80px;
     color: white;
 }
 
-body {
+
+main{
     background-color: black;
+    height: 110vh;
+}
+
+footer{
+    background-color: darkgray;
+    color: white;
+    height: 80px;
 }
 
 button{
@@ -29,7 +37,8 @@ button{
 
 .flex{
     display: flex;
-
+    justify-content: space-between;
+    
 }
 
 .flex-wrap{
@@ -41,6 +50,10 @@ button{
     justify-content: end;
     align-items: center;
 
+}
+
+.text-align{
+    text-align: center;
 }
 
 .speaker{
@@ -70,4 +83,18 @@ img{
     width: 146px;
     background-color: rgba(128, 128, 128, 10);
     bottom: 10px;
+}
+
+.mic,
+.video,
+.invite,
+.partecipants,
+.polling,
+.share,
+.chat,
+.record,
+.room,
+.more, {
+    font-size: 2rem;
+    text-align: center;
 }
