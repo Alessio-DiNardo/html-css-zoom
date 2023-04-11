@@ -20,6 +20,10 @@ footer{
     background-color: rgb(97, 97, 97);
     color: white;
     height: 80px;
+    position: fixed;
+    z-index: 2;
+    bottom: 0rem;
+    width: 100%;
 }
 
 button{
