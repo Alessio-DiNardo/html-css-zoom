@@ -54,6 +54,8 @@ button{
 
 .text-align{
     text-align: center;
+    padding-top: 1rem;
+    
 }
 
 .speaker{
@@ -77,6 +79,14 @@ img{
     margin-right: 0.5rem;
 }
 
+p{
+    font-size: 1rem;
+}
+
+.freccia{
+    padding-top: 1rem;
+}
+
 .user{
     position: absolute;
     color: white;
@@ -85,16 +95,55 @@ img{
     bottom: 10px;
 }
 
-.mic,
-.video,
-.invite,
-.partecipants,
-.polling,
-.share,
-.chat,
-.record,
-.room,
-.more, {
+.simbol{
     font-size: 2rem;
-    text-align: center;
+}
+
+.mic{
+    margin-right: 1rem;
+}
+
+.video{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.invite{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.partecipants{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.polling{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.share{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.chat{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.record{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.room{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.more{
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
