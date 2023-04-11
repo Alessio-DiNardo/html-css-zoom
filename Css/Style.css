@@ -5,9 +5,13 @@
 }
 
 header{
-    background-color: black;
+    background-color: rgb(150, 145, 145);
     height: 80px;
     color: white;
+}
+
+body {
+    background-color: black;
 }
 
 button{
@@ -28,6 +32,11 @@ button{
 
 }
 
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .flex-end{
     justify-content: end;
     align-items: center;
@@ -36,4 +45,29 @@ button{
 
 .speaker{
     height: 20px;
+}
+
+.container{
+    max-width: 1370px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.relative{
+    position: relative;
+}
+
+img{
+    width: 220px;
+    height: 140px;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+.user{
+    position: absolute;
+    color: white;
+    width: 146px;
+    background-color: rgba(128, 128, 128, 10);
+    bottom: 10px;
 }
