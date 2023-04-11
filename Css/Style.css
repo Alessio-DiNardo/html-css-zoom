@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+
+button{
+    display: flex;
+    border: none;
+    background-color: grey;
+    border-radius: 0.2999999999999998rem;
+    padding: 0 0.5rem;
+    text-align: center;
+    height: 1.8rem;
+    margin-right: 0.5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.flex-end{
+    justify-content: end;
+    align-items: center;
+
+}
+
+.speaker{
+    height: 20px;
+}
