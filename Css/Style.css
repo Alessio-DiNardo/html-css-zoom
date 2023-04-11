@@ -8,6 +8,10 @@ header{
     background-color: black;
     height: 80px;
     color: white;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -69,8 +73,8 @@ button{
 
 .container{
     max-width: 1370px;
-    height: 20px;
     margin: 0 auto;
+    padding-top: 5rem;
 }
 
 .relative{
