@@ -17,7 +17,7 @@ main{
 }
 
 footer{
-    background-color: darkgray;
+    background-color: rgb(97, 97, 97);
     color: white;
     height: 80px;
 }
@@ -33,6 +33,7 @@ button{
     margin-right: 0.5rem;
     align-items: center;
     margin-bottom: 3rem;
+    color: white;
 }
 
 .flex{
@@ -146,4 +147,10 @@ p{
 .more{
     margin-right: 1rem;
     margin-left: 1rem;
+}
+
+.end{
+    color: red;
+    padding-top: 0.5rem;
+    background-color: lightgrey;
 }
