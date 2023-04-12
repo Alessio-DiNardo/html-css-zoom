@@ -18,6 +18,7 @@ header{
 main{
     background-color: black;
     height: 110vh;
+    overflow-y: auto;
 }
 
 footer{
